@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.main-header{
+    background-color: green;
+    padding: 8px 18px;
+}
+
+
+.nav-list-items{
+    display: inline-block;
+    
+
+}
+
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header-brand{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+
+
+.nav-list__class{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 99px) ;
+    vertical-align: middle;
+    
+}
+
+.nav-list-item a{
+    color: black;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.nav-list-items a:hover,
+.nav-list-items a:active{
+    color: white;
+    
+   
+    
+}
+
+.nav-list-items__cta{
+    color: white;
+    background: red;
+    border-radius: 8px;
+    padding: 8px 16px;
+    
+}
+
+.nav-list-items__cta:hover,
+.nav-list-items__cta:active{
+    border: none;
+    background: white;
+    color: #0e4f1f;
+}
+
+.nav-list-items__cta a:hover{
+    color: #0e4f1f;
+}
+
+.product-section{
+    background: url("/Images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg");
+    height: 300px;
+    max-width: 100%;
+}
+
+.first-box{
+    border: 2px solid red;
+    /* padding: 60px 30px 50px 60px; */
+    /* max-width: 100%; */
+    /* margin: 10px 10px 30px 40px; */
+    /* height: 300%; */
+    height: 300px;
+    width: 48%;
+   
+    display: inline-block;
+   
+}
+
+.first-box_first{
+    height: 300px;
+    /* width: 50%; */
+    display: none;
+    
+}
+
+.box-container{
+    /* max-width: 100%; */
+    /* border: 2px solid red; */
+}
+
+div:last-of-type:hover{
+    border-color: green;
+}
+
+
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+
+.plan-highlighted{
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__anotation{
+    color: #19b84c;
+    background: white;
+    border-radius: 3px;
+    padding: 2px 6px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section-title{
+    text-align: center;
+     color: #2ddf5c;
+}
+
+.plan-benefits{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan-features{
+    margin: 8px 0;
+}
+
+.button{
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;  
+
+}
+
+.button:hover{
+    background: white;
+    color: black;
+}
+
+#key-features{
+    background: red;
+    margin-top: 80px;
+}
+
+#key-features .section-title{
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+.key-feature__list{
+    list-style: none;
+    margin: 0 ;
+    padding: 0 ;
+    text-align: center;
+    
+}
+
+.key-feature{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    
+}
+
+.key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    height: 128px;
+    margin: auto;
+}
+
+
+
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
