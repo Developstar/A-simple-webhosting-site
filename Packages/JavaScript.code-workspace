@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../JavaScript"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Project"
+		},
+		{
+			"path": "../../../altSchoolProjects"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Css Practice"
+	}
+}
