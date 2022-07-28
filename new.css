@@ -78,9 +78,24 @@ body{
 
 .product-section{
     background: url("/Images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg");
-    height: 300px;
+    height: 200px;
     max-width: 100%;
+    margin-top: 83px;
+    position: relative;
+    
 }
+
+
+
+.slogan{
+    color: white;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    
+}
+
+
 
 .first-box{
     border: 2px solid red;
